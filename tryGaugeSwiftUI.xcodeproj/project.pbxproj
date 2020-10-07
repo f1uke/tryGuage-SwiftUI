@@ -15,6 +15,9 @@
 		71CDBBAC252C23720068502A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71CDBBAA252C23720068502A /* LaunchScreen.storyboard */; };
 		71CDBBB7252C23720068502A /* tryGaugeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDBBB6252C23720068502A /* tryGaugeSwiftUITests.swift */; };
 		71CDBBC2252C23720068502A /* tryGaugeSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDBBC1252C23720068502A /* tryGaugeSwiftUIUITests.swift */; };
+		71CDBBD3252C4AE30068502A /* RoundGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDBBD2252C4AE30068502A /* RoundGauge.swift */; };
+		71CDBBD8252C50800068502A /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDBBD7252C50800068502A /* GaugeView.swift */; };
+		71CDBBE0252C5B480068502A /* MeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDBBDF252C5B480068502A /* MeterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		71CDBBBD252C23720068502A /* tryGaugeSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryGaugeSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CDBBC1252C23720068502A /* tryGaugeSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryGaugeSwiftUIUITests.swift; sourceTree = "<group>"; };
 		71CDBBC3252C23720068502A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71CDBBD2252C4AE30068502A /* RoundGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundGauge.swift; sourceTree = "<group>"; };
+		71CDBBD7252C50800068502A /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
+		71CDBBDF252C5B480068502A /* MeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				71CDBB9F252C236F0068502A /* AppDelegate.swift */,
 				71CDBBA1252C236F0068502A /* SceneDelegate.swift */,
 				71CDBBA3252C236F0068502A /* ContentView.swift */,
+				71CDBBD2252C4AE30068502A /* RoundGauge.swift */,
+				71CDBBD7252C50800068502A /* GaugeView.swift */,
+				71CDBBDF252C5B480068502A /* MeterView.swift */,
 				71CDBBA5252C23720068502A /* Assets.xcassets */,
 				71CDBBAA252C23720068502A /* LaunchScreen.storyboard */,
 				71CDBBAD252C23720068502A /* Info.plist */,
@@ -266,6 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71CDBBD8252C50800068502A /* GaugeView.swift in Sources */,
+				71CDBBD3252C4AE30068502A /* RoundGauge.swift in Sources */,
+				71CDBBE0252C5B480068502A /* MeterView.swift in Sources */,
 				71CDBBA0252C236F0068502A /* AppDelegate.swift in Sources */,
 				71CDBBA2252C236F0068502A /* SceneDelegate.swift in Sources */,
 				71CDBBA4252C236F0068502A /* ContentView.swift in Sources */,
@@ -438,6 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"tryGaugeSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = W7W59KD2WL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = tryGaugeSwiftUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -458,6 +471,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"tryGaugeSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = W7W59KD2WL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = tryGaugeSwiftUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
